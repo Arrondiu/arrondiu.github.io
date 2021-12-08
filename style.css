@@ -88,12 +88,11 @@ footer {
 
 .par {
   text-indent: 4em;
-  padding-left: 5%;
-  padding-right: 10%;
   line-height: 2;
   font-size: 1.1em;
   font-weight: 400;
   max-width: 90%;
+  margin: 0 auto;
 }
 
 .backtotop {

@@ -93,7 +93,7 @@ footer {
   line-height: 2;
   font-size: 1.1em;
   font-weight: 400;
-  max-width: 1050px;
+  max-width: 90%;
 }
 
 .backtotop {
@@ -111,7 +111,7 @@ footer {
 .footer {
   font-size: 1.2em;
   display: flex;
-  max-width: 1050px;
+  max-width: 65%;
   padding: 0% 15%;
 }
 

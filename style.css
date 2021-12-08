@@ -77,7 +77,7 @@ strong {
 
 .elac_img {
   padding-left: 5%;
-  width: 1130px;
+  width: 1050px;
   height: 520px;
 }
 
@@ -93,6 +93,7 @@ footer {
   line-height: 2;
   font-size: 1.1em;
   font-weight: 400;
+  max-width: 1050px;
 }
 
 .backtotop {
@@ -108,9 +109,10 @@ footer {
 }
 
 .footer {
-  padding-left: 14.8%;
   font-size: 1.2em;
   display: flex;
+  max-width: 1050px;
+  padding: 0% 15%;
 }
 
 .link {

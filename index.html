@@ -11,6 +11,8 @@
 </head>
 <body>
 
+<button class="nav-toggle" aria-label="toggle naviation"><span class="hamburger"></span></button>
+
 <section class="intro">
     <h1 id="hello">
         Hi, I am <strong>Arron Diu</strong>
@@ -21,12 +23,13 @@
     <img src="myPicture.jpg" alt="my image" width="200" id="myPhoto">
 </section>
 
-<ul class="nav">
-    <li class="li"><a href="#about">About me</a> </li>
-    <li class="li"><a href="#edu">Education</a> </li>
-    <li class="li"><a href="#footer">Contact me</a> </li>
-</ul>
-
+<nav class="navigate">
+    <ul class="nav">
+        <li class="li"><a href="#about" class="nav_link">About me</a> </li>
+        <li class="li"><a href="#edu" class="nav_link">Education</a> </li>
+        <li class="li"><a href="#footer" class="nav_link">Contact me</a> </li>
+    </ul>
+</nav>
 
 <section id="about">
     <h2>Who I am</h2>
@@ -80,5 +83,8 @@
         <a href="https://www.linkedin.com/in/arron-diu-542b6a222/" class="link" target="_blank"><i class="fab fa-linkedin" id="linked"></i></a>
     </div>
 </footer>
+
+    <script src="/index.js"></script>
+
 </body>
 </html>

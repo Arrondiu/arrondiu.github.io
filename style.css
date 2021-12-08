@@ -86,14 +86,17 @@ footer {
   padding-left: 10%;
 }
 
+footer {
+  text-align: center;
+}
+
 .par {
   text-indent: 4em;
   line-height: 2;
   font-size: 1.1em;
   font-weight: 400;
   max-width: 90%;
-  margin: 0 auto;
-  padding: 0% 8%;
+  padding: 0% 5%;
 }
 
 .backtotop {

@@ -170,12 +170,9 @@ strong {
   height: 520px;
 }
 
-#about {
-  max-width: 1450px;
-}
-
 section,
 footer {
+  max-width: 1450px;
   padding-left: 10%;
 }
 

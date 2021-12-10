@@ -196,6 +196,7 @@ footer {
   padding-bottom: 7%;
   background: url(/computerBackground.jpeg);
   background-size: cover;
+  max-width: 1030px;
 }
 
 .skillHead {

@@ -3,9 +3,9 @@ html {
 }
 
 body {
-  background: url(/snow_background.jpeg);
+  background-color: rgb(197, 197, 197);
   background-size: cover;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 .navigate {
@@ -168,9 +168,61 @@ strong {
   padding-left: 5%;
 }
 
+.info {
+  list-style: none;
+  float: right;
+  margin-right: 20%;
+}
+
+#email {
+  color: black;
+  text-decoration: none;
+}
+
+#email:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+#linkedin {
+  color: black;
+  text-decoration: none;
+}
+
+#linkedin:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 .school_list {
-  line-height: 2em;
-  padding-left: 5%;
+  padding-left: 10%;
+  line-height: 7.5em;
+}
+
+.school {
+  list-style: none;
+}
+
+#dinhquan {
+  width: 70px;
+  border-radius: 50%;
+  margin-right: 30px;
+  box-shadow: 0.5em 0.3em 0.75em rgba(0, 0, 0, 25);
+}
+
+#elac {
+  width: 70px;
+  border-radius: 50%;
+  margin-left: 30px;
+  box-shadow: 0.5em 0.3em 0.75em rgba(0, 0, 0, 25);
+}
+
+#calpoly {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 30px;
+  box-shadow: 0.5em 0.3em 0.75em rgba(0, 0, 0, 25);
 }
 
 .sk {
@@ -180,7 +232,7 @@ strong {
 
 .sk_list {
   list-style: none;
-  margin-left: 5%;
+  margin-left: 15%;
 }
 
 .about,
@@ -188,6 +240,15 @@ strong {
 .skills,
 .projects {
   padding-left: 10%;
+}
+
+#clock_app {
+  text-decoration: none;
+}
+
+#clock_app:hover {
+  text-decoration: underline;
+  color: blue;
 }
 
 .skill_list {
@@ -207,10 +268,14 @@ section {
 }
 
 .backtotop {
-  color: white;
+  color: black;
   padding-left: 10%;
   font-size: 1.5em;
   text-decoration: none;
+}
+
+.backtotop:hover {
+  text-decoration: underline;
 }
 
 .footer {
@@ -222,7 +287,6 @@ section {
 }
 
 .contact {
-  color: white;
   margin-top: 3%;
   padding-left: 10%;
 }
@@ -233,7 +297,7 @@ section {
   height: 60px;
   margin: 0em 2.5em;
   margin-top: 0em;
-  margin-bottom: 2.5em;
+  margin-bottom: 1em;
   font-size: 2em;
   transition: 0.6s;
   border-radius: 50%;

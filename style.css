@@ -174,7 +174,13 @@ strong {
 }
 
 .sk {
-  line-height: 2em;
+  font-size: 1.25em;
+  line-height: 1em;
+}
+
+.sk_list {
+  list-style: none;
+  margin-left: 5%;
 }
 
 .about,

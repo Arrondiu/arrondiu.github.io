@@ -4,8 +4,7 @@ html {
 
 body {
   background-color: rgb(197, 197, 197);
-  background-size: cover;
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 .navigate {
@@ -160,18 +159,19 @@ strong {
 
 .cs {
   font-style: italic;
-  padding-left: 5%;
+  margin-left: 5%;
 }
 
 .about_list {
   line-height: 2em;
-  padding-left: 5%;
+  margin-left: 7.5%;
+  margin-top: -15px;
 }
 
 .info {
   list-style: none;
   float: right;
-  margin-right: 20%;
+  margin-right: 25%;
 }
 
 #email {
@@ -228,18 +228,19 @@ strong {
 .sk {
   font-size: 1.25em;
   line-height: 1em;
+  margin-left: 7.5%;
 }
 
 .sk_list {
   list-style: none;
-  margin-left: 15%;
+  margin-left: 22.5%;
 }
 
 .about,
 .edu,
 .skills,
 .projects {
-  padding-left: 10%;
+  margin-left: 10%;
 }
 
 #clock_app {
@@ -252,11 +253,11 @@ strong {
 }
 
 .skill_list {
-  padding-left: 5%;
+  margin-left: 5%;
 }
 
 .project_list {
-  padding-left: 5%;
+  margin-left: 7.5%;
 }
 
 .project {
@@ -326,6 +327,7 @@ h1 {
 
 h2 {
   line-height: 2em;
+  font-size: 2em;
 }
 
 .line {

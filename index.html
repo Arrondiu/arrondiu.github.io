@@ -1,132 +1,265 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="/style.css">
-    <script src="https://kit.fontawesome.com/ffbf67dba8.js" crossorigin="anonymous"></script>
-    <title>My Portfolio</title>
-    <link rel="shortcut icon" type="image" href="/web_icon.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="site.css">
+    <title>Arron Diu</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary" id="navbar">
 
-    <button class="nav-toggle" aria-label="toggle naviation"><span class="hamburger"></span></button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <h3>AD&nbsp;|</h3>
+                <a class="nav-link active" href="#intro">Home</a>
+                <a class="nav-link active" href="#intro" style="white-space: nowrap;">About Me</a>
+                <a class="nav-link active" href="#skills">Skills</a>
+                <a class="nav-link active" href="#">Projects</a>
+            </div>
+        </div>
+    </nav>
 
-    <section class="intro">
-        <h1 id="hello">
+    <section class="intro" id="intro">
+        <h1 id=" hello">
             Hi, I am <strong>Arron Diu</strong>
         </h1>
-        <p id="dev">
+        <p id="major">
             Computer Science Student
         </p>
         <img src="myPicture.jpg" alt="my image" width="200" id="myPhoto">
     </section>
 
-    <nav class="navigate">
-        <ul class="nav">
-            <li class="li"><a href="#about" class="nav_link">About me</a> </li>
-            <li class="li"><a href="#edu" class="nav_link">Education</a> </li>
-            <li class="li"><a href="#skills" class="nav_link">Skills</a></li>
-            <li class="li"><a href="#projects" class="nav_link">My projects</a></li>
-            <li class="li"><a href="#footer" class="nav_link">Contact me</a> </li>
-        </ul>
-    </nav>
-
     <section class="about" id="about">
         <h2>Who I am</h2>
-        <p class="par1" id="p1">
-        <div class="about_text">
-            <span class="cs">I am a Computer Science student at California States University Los Angeles.</span>
-            <li class="info">Email:<a href="mailto: hyphidiu@gmail.com" id="email"> hyphidiu@gmail.com</a></li>
-            <br>
-            <li class="info">Cell phone: 626-554-8503</li>
-            <br>
-            <li class="info"><a href="https://www.linkedin.com/in/arron-diu-542b6a222/" id="linkedin"
-                    target="_blank">Linkedin</a></li>
-            <ul class="about_list">
-                <li>Full name: Arron Diu</li>
-                <li>Birthday: 09/07/1996</li>
-                <li>Country: United States</li>
-                <li>Country of birth: Vietnam</li>
-            </ul>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="about_text col-12 col-md-7 col-lg-7 mt-3">
+                    <span class="cs" style="font-style: italic;">I am a Computer Science student at California States
+                        University Los Angeles.</span>
+                    <ul class="about_list mt-4">
+                        <li>Full name: Arron Diu</li>
+                        <li>Birthday: 09/07/1996</li>
+                        <li>Country: United States</li>
+                        <li>Country of birth: Vietnam</li>
+                    </ul>
+                </div>
+                <div class="about_row1 col-5">
+                    <ul style="list-style: none;">
+                        <li class="info">Email:<a href="mailto: hyphidiu@gmail.com"
+                                style="text-decoration: none; color: black;"> hyphidiu@gmail.com</a>
+                        </li>
+                        <br>
+                        <li class="info">Cell phone: 626-554-8503</li>
+                        <br>
+                        <li class="info"><a href="https://www.linkedin.com/in/arron-diu-542b6a222/"
+                                style="text-decoration: none; color: black;" target="_blank">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        </p>
     </section>
 
-    <div class="line"></div>
+    <div style="border: solid 1px; margin: 5% 10% 5% 10%;"></div>
 
     <section class="edu" id="edu">
         <h2>Education</h2>
-        <p class="par2">
-        <ul class="school_list">
-            <li class="school" id="school1">
-                <h3><img src="/dinhquanlogo.jpg" alt="dinhquan" id="dinhquan"> Dinhquan High School (Vietnam)</h3>
-            </li>
-            <li class="school">
-                <h3>East Los Angeles College <img src="/elaclogo.jpg" alt="elac" id="elac"></h3>
-            </li>
-            <li class="school">
-                <h3><img src="/csula.png" alt="csula" id="csula">California State University Los Angeles</h3>
-            </li>
-        </ul>
-        </p>
-        </a>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <img class="logo" src="dinhquanlogo.jpg" alt="Dinhquan logo">
+                    <span style="font-weight: bold;">&nbsp; Dinhquan High School</span> (2011-2014)
+                </div>
+                <div class="offset-3 mt-5" style="font-weight: bold;"><a href="https://elac.edu/"
+                        style="text-decoration: none; color: black;"> East Los Angeles
+                        College <span style="font-weight: lighter;">(2019-2022)</span> &nbsp; <img class="logo"
+                            src="elaclogo.jpg" alt="ELAC logo"></a>
+                </div>
+                <div class="col-12 mt-5">
+                    <a href="https://www.calstatela.edu/"
+                        style="text-decoration: none;font-weight: bold; color: black;">
+                        <img class="logo" src="csula.png" alt="CSU LA logo">
+                        &nbsp; California State
+                        University Los Angeles <span style="font-weight: lighter;">(Since 2022)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <table class="table table-striped table-dark table-hover mt-5" id="classTable">
+            <h5 class="mb-n4" style="text-align: center;">Current Classes</h5>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Course Name</th>
+                    <th scope="col">Instructor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Network System and Cyber Security</td>
+                    <td>Anson Fong</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Analysis of Algorithms</td>
+                    <td>Behzad Parviz</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Web and Internet Programming</td>
+                    <td>Francisco Guzman</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Software Engineering</td>
+                    <td>Marianne Abad</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Societal and Ethical Issues</td>
+                    <td>John Hurley</td>
+                </tr>
+            </tbody>
+        </table>
+
     </section>
 
-    <div class="line"></div>
+    <div style="border: solid 1px; margin: 5% 10% 5% 10%;"></div>
 
     <section class="skills" id="skills">
         <h2 class="skillHead">Skills</h2>
-        <ul>
-            <h2 class="sk"><i class="fas fa-tools" style="opacity: 0.75; font-size: 1.75em;"></i> Software Development:
-            </h2>
-            <li class="sk_list">C++, Java, Python</li>
-            <h2 class="sk"><i class="fas fa-globe-americas" style="opacity: 0.75; font-size: 1.75em;"></i> Web Design:
-            </h2>
-            <li class="sk_list">HTML, CSS, JavaScript</li>
-            <h2 class="sk"><i class="fas fa-save" style="opacity: 0.75; font-size: 1.75em;"></i> Database: </h2>
-            <li class="sk_list">SQL</li>
-        </ul>
-        </ul>
+        <h4 class="sk"><i class="fas fa-tools" style="opacity: 0.75; font-size: 1.25em;"></i>&nbsp; Software
+            Development:
+        </h4>
+        <div class="skill"><i class="fa-solid fa-arrow-right"></i>&nbsp; C++, Java, Python</div>
+        <h4 class="sk"><i class="fas fa-globe-americas" style="opacity: 0.75; font-size: 1.25em;"></i>&nbsp; Web Design:
+        </h4>
+        <div class="skill"><i class="fa-solid fa-arrow-right"></i>&nbsp; HTML, CSS, JavaScript, Bootstrap, React</div>
+        <h4 class="sk"><i class="fas fa-save" style="opacity: 0.75; font-size: 1.25em;"></i>&nbsp; Database: </h4>
+        <div class="skill"><i class="fa-solid fa-arrow-right"></i>&nbsp; SQL, Access</div>
     </section>
 
-    <div class="line"></div>
+    <div style="border: solid 1px; margin: 5% 10% 5% 10%;"></div>
 
-    <section class="projects" id="projects">
-        <h2 class="my_projects">My Projects</h2>
-        <ul class="project_list">
-            <li><a href="https://drive.google.com/drive/folders/14W55UdSJSYhiRPmYsFFfOBiXHMrc9IWF?usp=sharing"
-                    class="project" id="clock_app">Clock App</a> </li>
-        </ul>
+    <section>
+        <h2>Interests</h2>
+        <h3 style="text-align: center;"><span class="badge badge-primary my-4">Sports</span></h3>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mt-3" style="width: 18rem;">
+                        <a href="https://en.wikipedia.org/wiki/Lionel_Messi#Early_life">
+                            <img src="messi.jpg" class="card-img-top" alt="messi"></a>
+                        <div class=" card-body">
+                            <p class="card-text">Lionel Messi is an Argentine professional football (soccer) player
+                                widely
+                                considered one of the greatest footballers of
+                                all time. He was born on June 24, 1987, in Rosario, Argentina.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mt-3" style="width: 18rem;">
+                        <a href="https://www.chelseafc.com/en"><img src="chelsea.jpg" class="card-img-top"
+                                alt="chelsea logo"></a>
+                        <div class="card-body">
+                            <p class="card-text">Chelsea FC is a professional football (soccer) club based in London,
+                                England.
+                                The club was founded in 1905 and has since
+                                become one of the most successful teams in English football.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card mt-3" style="width: 18rem;">
+                        <img src="rafa_nadal.jpg" class="card-img-top" alt="rafa nadal">
+                        <div class="card-body">
+                            <p class="card-text">afael Nadal is a Spanish professional tennis player widely considered
+                                one
+                                of the greatest players of all time. He was
+                                born on June 3, 1986, on the island of Mallorca in Spain.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 style="text-align: center;"><span class="badge badge-primary mt-5 mb-4">Gaming</span></h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 offset-md-1 col-md-4 offset-lg-1 col-lg-4">
+                    <div class="card mt-3" style="width: 18rem;">
+                        <a href="https://www.leagueoflegends.com/en-us/">
+                            <img src="lol.jpg" class="card-img-top" alt="lol logo"></a>
+                        <div class=" card-body">
+                            <p class="card-text">League of Legends (LoL) is a multiplayer online battle arena (MOBA)
+                                video game developed and published by Riot Games. It
+                                was released in 2009 and has since become one of the most popular video games in the
+                                world, with a dedicated player base
+                                and professional esports scene.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 offset-md-2 col-md-4 offset-lg-2 col-lg-4">
+                    <div class="card mt-3" style="width: 18rem;">
+                        <a href="https://www.callofduty.com/"><img src="cod.jpg" class="card-img-top"
+                                alt="cod logo"></a>
+                        <div class="card-body">
+                            <p class="card-text">Call of Duty is a first-person shooter video game franchise developed
+                                by Activision. The series was first released in
+                                2003, and has since become one of the most popular video game franchises in the world,
+                                with a large and dedicated player
+                                base.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <div class="line"></div>
+    <div style="border: solid 1px; margin: 5% 10% 5% 10%;"></div>
 
-    <section class="bottom">
-        <a href="#top" class="backtotop"><i class="fas fa-arrow-circle-up"></i> Back To Top</a>
+    <section>
+        <div class="contact">
+            <h2 style="text-align: center;">Contact me</h2>
+            <ul class="footer" id="footer">
+                <li><a href="mailto:hyphidiu@gmail.com" class="link" target="_blank"><i class="far fa-envelope"
+                            style="color: red;"></i></a>
+                </li>
+                <li><a href="https://www.facebook.com/twisted.fate.771/" class="link" target="_blank"><i
+                            class="fab fa-facebook" style="color: blue;"></i></a></li>
+                <li><a href="https://www.instagram.com/hypd.115/" class="link" target="_blank"><i
+                            class="fab fa-instagram" style="color: purple;"></i></a></li>
+            </ul>
+
     </section>
 
-
-    <footer>
-        <center>
-            <h2 class="contact">Contact me</h2>
-        </center>
-        <ul class="footer" id="footer">
-            <li><a href="mailto:hyphidiu@gmail.com" class="link" target="_blank"><i class="far fa-envelope"
-                        id="mail"></i></a></li>
-            <li><a href="https://www.facebook.com/twisted.fate.771/" class="link" target="_blank"><i
-                        class="fab fa-facebook" id="fb"></i></a></li>
-            <li><a href="https://www.instagram.com/hypd.115/" class="link" target="_blank"><i class="fab fa-instagram"
-                        id="ig"></i></a></li>
-        </ul>
-    </footer>
-
-    <script src="/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
 
 </body>
+
 
 </html>

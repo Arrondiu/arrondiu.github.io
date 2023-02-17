@@ -1,0 +1,131 @@
+#navbar {
+    position: fixed;
+    padding-right: 100%;
+    font-weight: bold;
+    z-index: 5;
+}
+
+.nav-link {
+    margin-right: 0.5em;
+}
+
+#hello {
+    font-weight: lighter;
+    font-family: "Lobster", cursive;
+    letter-spacing: 3px;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: -28px;
+}
+
+#major {
+    background: aqua;
+    font-family: "Lobster", cursive;
+    font-size: 1.1rem;
+    align-self: start;
+    grid-column: -1/1;
+    grid-row: 2;
+    position: relative;
+    text-align: right;
+    left: -1.5em;
+    width: calc(100% + 1.8em);
+    padding: 0.25em;
+    letter-spacing: 1.3px;
+}
+
+
+.intro strong {
+    display: block;
+}
+
+.intro {
+    position: relative;
+    padding-top: 7.5%;
+    display: grid;
+    grid-template-areas: "img title" "img subtitle";
+    grid-template-columns: min-content max-content;
+    grid-column-gap: 0.8em;
+    width: min-content;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    padding-top: 100px;
+}
+
+#myPhoto {
+    grid-area: img;
+    min-width: 250px;
+    z-index: 2;
+    border-radius: 50%;
+    box-shadow: 1.15em 0.3em 1.5em rgba(0, 0, 0, 25);
+}
+
+.about_list {
+    line-height: 2em;
+    margin-left: 7.5%;
+    margin-top: -15px;
+}
+
+.info {
+    float: right;
+    padding-left: 5%;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    box-shadow: 0.5em 0.3em 0.75em rgba(0, 0, 0, 25);
+}
+
+#classTable {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sk {
+    margin-left: 10%;
+    margin-top: 25px;
+}
+
+.skill {
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.footer {
+    list-style: none;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0em 2.5em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    font-size: 2em;
+    transition: 0.6s;
+    border-radius: 50%;
+}
+
+.link:hover {
+    transform: translate(0, -10px);
+}
+
+html {
+    height: 200%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+section {
+    padding: 0% 3% 0 3%;
+    margin: 0 10% 0 10%;
+}

@@ -53,7 +53,7 @@
 
 #myPhoto {
     grid-area: img;
-    min-width: 250px;
+    max-height: 50;
     z-index: 2;
     border-radius: 50%;
     box-shadow: 1.15em 0.3em 1.5em rgba(0, 0, 0, 25);
@@ -125,4 +125,27 @@ body {
 section {
     padding: 0% 3% 0 3%;
     margin: 0 10% 0 10%;
+}
+
+/* Media Query for small screens (portrait phones) */
+@media (max-width: 576px) {
+    .card {
+        max-height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-body {
+        flex-grow: 1;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-text {
+        flex-grow: 1;
+        margin-top: 1rem;
+        overflow: hidden;
+        /* Add this line to prevent text overflow */
+    }
 }

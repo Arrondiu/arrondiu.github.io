@@ -185,13 +185,20 @@ section {
   text-align: left;
 }
 
-.sk {
+.sk,
+.exp {
   margin-left: 15%;
   margin-top: 25px;
 }
 
 .skill {
   margin-left: 25%;
+  margin-top: 20px;
+}
+
+.exp p {
+  margin-left: 12.5%;
+  font-size: 20px;
   margin-top: 20px;
 }
 
